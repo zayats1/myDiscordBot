@@ -1,0 +1,9 @@
+/src/main/resources/bot_token.txt
+/build/
+/out/
+*.bin
+*.bin
+.gradle/7.1/executionHistory/executionHistory.lock
+.idea/artifacts/myDiscordBot_main_jar.xml
+/.gradle/checksums/
+/.gradle/buildOutputCleanup/
