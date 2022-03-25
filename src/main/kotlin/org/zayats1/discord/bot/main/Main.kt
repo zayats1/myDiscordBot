@@ -8,7 +8,6 @@ import com.jessecorbett.diskord.util.words
 import org.zayats1.discord.bot.games.RockPaperScissorsGame
 
 
-
 private val BOT_TOKEN = try {
     ClassLoader.getSystemResource("bot_token.txt").readText().trim()
 } catch (error: Exception) {
@@ -33,7 +32,7 @@ suspend fun main() {
             command("Чувачі") { message ->
                 val game = RockPaperScissorsGame()
                 val words = message.words
-                    message.reply(game.fight(words[1]))
+                message.reply(game.fight(words[1]))
             }
         }
     }
